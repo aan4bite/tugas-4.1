@@ -1,0 +1,106 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 50px 20px 50px;
+    background-color: rgb(207, 207, 207);
+    border-bottom: 3px solid #303030;
+}
+
+.nav span {
+    font-size: larger;
+    margin-right: 50px;
+}
+
+.nav a {
+    font-size: larger;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav1 img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.nav1 span {
+    font-size: larger;
+}
+
+.container {
+    display: flex;
+    padding: 50px;
+}
+
+.container .tabel1 {
+    box-align: left; 
+    width: 100%;
+}
+
+.tabel1 .td1 {
+    display: flex; 
+    align-items: center; 
+    justify-content: left; 
+    text-align: start;
+}
+
+.tabel1 tr {
+    box-align: left;
+}
+
+.td1 img {
+    margin-right: 20px;
+    width: 50px; 
+    height: 50px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #303030;
+}
+
+.tabel2 {
+    width: 35%; 
+    box-align: right; 
+    background-color: rgb(207, 207, 207); 
+    margin-left: 20px; 
+    padding: 0 20px 20px; 
+    height: 50%;
+}
+
+.tabel2 .td2 {
+    text-align: end;
+}
+
+.footer {
+    position:relative; 
+    width: 100%; 
+    display: flex; 
+    bottom: 0; 
+    border-top: 3px solid #303030;
+}
+
+.footer .tbl1 {
+    box-align: left;
+    width: 82%;
+    padding: 0px 0px 0 50px;
+}
+
+.tbl1 tr {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: start;
+}
+
+.footer .tbl2 {
+    box-align: right;
+    width: 18%;
+    padding: 0px 50px 0 0;
+}
